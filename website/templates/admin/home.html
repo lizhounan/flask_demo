@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block title %}home Page{% endblock %}
+{% block content %}
+    <h1>Fake Home Page. just used to test static file</h1>
+    <image src="{{url_for('admin.static', filename='images/attn_mechanism.png')}}" width="800" height="800">
+{% endblock %}

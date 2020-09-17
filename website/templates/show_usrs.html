@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block title %}show usrs Page{% endblock %}
+{% block content %}
+    {% for item in items %}
+        <p>{{item.name}}, {{item.email}}</p>
+    {% endfor %}
+{% endblock %}
